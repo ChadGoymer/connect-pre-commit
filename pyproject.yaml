@@ -1,0 +1,6 @@
+[project]
+name = "connect-pre-commit"
+version = "0.0.0"
+dependencies = [
+    "rsconnect-python==1.26.0",
+]
