@@ -1,8 +1,8 @@
 - id: connect-manifest
   name: Connect write manifest
   description: "Create a manifest file for Posit Connect deployment"
-  entry: rsconnect-python write-manifest
-  language: system
+  entry: rsconnect write-manifest
+  language: python
   args: [--overwrite]
   require_serial: true
   additional_dependencies: []
